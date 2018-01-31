@@ -1,0 +1,53 @@
+{
+  "Response": {
+    "responsecode": "200",
+    "resultsreturned": "100",
+    "totalresults": "9540",
+    "nextpage": "/keywords/list?site_id=123&start=100&format=json",
+    "Result": [
+      {
+        "Id": "25440818",
+        "Keyword": "s-hertogenbosch",
+        "KeywordMarket": "IE-en",
+        "KeywordLocation": null,
+        "KeywordDevice": "desktop",
+        "KeywordTags": "201801, clp control",
+        "KeywordStats": {
+          "AdvertiserCompetition": "0.571429",
+          "GlobalSearchVolume": "590",
+          "RegionalSearchVolume": "10",
+          "LocalSearchTrendsByMonth": {
+            "Dec": "10",
+            "Nov": "0",
+            "Oct": "10",
+            "Sep": "0",
+            "Aug": "0",
+            "Jul": "0",
+            "Jun": "10",
+            "May": "10",
+            "Apr": "10",
+            "Mar": "10",
+            "Feb": "10",
+            "Jan": "10"
+          },
+          "CPC": "0.0"
+        },
+        "KeywordRanking": {
+          "date": "2018-01-30",
+          "Google": {
+            "Rank": "7",
+            "BaseRank": "4",
+            "Url": "www.trivago.ie/-s-hertogenbosch-4334/hotel"
+          },
+          "Bing": {
+            "Rank": "28",
+            "Url": "www.trivago.ie/-s-hertogenbosch-4334/hotel"
+          }
+        },
+        "CreatedAt": "2018-01-11",
+        "RequestUrl": "/rankings/list?keyword_id=2334444&format=json&from_date=2018-01-11&to_date="
+      }
+    ]
+  }
+}
+

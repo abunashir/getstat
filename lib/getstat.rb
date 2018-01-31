@@ -1,5 +1,9 @@
 require "getstat/version"
+require "getstat/request"
+require "getstat/keyword"
 
 module Getstat
-  # Your code goes here...
+  def self.root
+    File.dirname(__dir__)
+  end
 end
