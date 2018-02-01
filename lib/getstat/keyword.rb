@@ -7,7 +7,7 @@ module Getstat
     # @params params [Hash] Other params as a Hash
     # @return [Sawyer::Resource]
     #
-    def self.list(site_id:, params: {})
+    def self.list(site_id:, **params)
       keywords = Request.get("keywords/list", query: params.merge(site_id: site_id))
       keywords["Response"]
     end
